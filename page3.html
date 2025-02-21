@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Argument 3</title>
+    <style>
+      body {
+        background-color: rgb(43, 37, 37);
+        margin: 0px;
+      }
+
+      main {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+      }
+
+      .navbar ul {
+        list-style-type: none;
+        background-color: goldenrod;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+      }
+
+      .navbar a {
+        color: black;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+      }
+
+      .navbar a:hover {
+        background-color: gray;
+      }
+
+      .navbar li {
+        float: left;
+      }
+
+      /* Styling for the flex container */
+      .content-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px; /* Space between video and form */
+        margin-top: 20px;
+      }
+
+      iframe {
+        max-width: 500px;
+        max-height: 500px;
+      }
+
+      form {
+        margin-top: 20px;
+        color: white;
+      }
+
+      label {
+        margin-right: 10px;
+      }
+
+      select {
+        margin-left: 10px;
+      }
+
+      input[type="submit"] {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: goldenrod;
+        border: none;
+        color: black;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li style="font-size: 30px">
+          <a href="index.html">Argument page 1</a>
+        </li>
+        <li style="font-size: 30px">
+          <a href="Page2.html">Argument page 2</a>
+        </li>
+        <li style="font-size: 30px">
+          <a href="Page3.html">Argument page 3</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1>Here is a video to prove my point and also some fun questions for you to answer</h1>
+
+    <div class="content-container">
+      <iframe
+        width="500"
+        height="500"
+        src="https://www.youtube.com/embed/zR1sg_Zi0KI"
+        title="Resident Evil 2 (2019) is a HORRIFYING MASTERPIECE"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+
+      <form
+        name="Jill"
+        action="https://en.wikipedia.org/wiki/Leon_S._Kennedy"
+        id="travel-suggestion"
+        user="user-travel-suggestion"
+        method="get">
+        <label for="Main character"></label>
+          Who is the male main character of Resident Evil 2</label
+        >
+        <select name="Main character" id="main-character">
+          <option value="Jill">Jill</option>
+          <option value="Leon">Leon</option>
+          <option value="Ethan">Ethan</option>
+          <option value="Hesinburg">Hesinburg</option>
+        </select>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+
+
+<form action="https://en.wikipedia.org/wiki/Resident_Evil_2" name="User-travel-suggestion" id="travel-suggestion" method="post">
+<fieldset form="travel-suggestion" name="travel-items">
+<legend>Which game has sold the most choose them in order</legend>
+<input type="checkbox" id="RE2" name="Sold">
+<label for="RE2">RE2</label><br/>
+<input type="checkbox" id="RE3" name="Sold">
+<label for="RE3">RE3</label><br/>
+<input type="checkbox" id="RE4" name="Sold">
+<label for="RE4">RE4</label><br/>
+<input type="submit" value="submit">
+</fieldset>
+</form>
+        <!-- Text Input (Another type of input) -->
+        <legend style="color: white;">Enter your favorite game:</legend>
+        <input type="text" id="favorite-game" name="favorite-game" maxlength="30" placeholder="Enter Game Name"><br>
+
+        <!-- Radio Buttons (Another type of input) -->
+        <legend style="color: white;">Which Resident Evil game is the oldest</legend>
+        <input style="color: white;" type="radio" id="RE0" name="favorite" value="RE0">
+        <label style="color: white;" for="RE0">RE0</label><br>
+        
+        <input style="color: white;" type="radio" id="RE2-radio" name="favorite" value="RE2">
+        <label style="color: white;" for="RE2-radio">RE2</label><br>
+        
+        <input style="color: white;" type="radio" id="RE4-radio" name="favorite" value="RE4">
+        <label style="color: white;" for="RE4-radio">RE4</label><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
